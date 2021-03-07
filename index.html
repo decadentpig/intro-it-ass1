@@ -7,7 +7,7 @@
   <link href="style.css" rel="stylesheet">
 </head>
 <body>
-      <img src='https://avatars.githubusercontent.com/u/74697095?s=400&u=fff308c2a910b6cb0fb1300e937f24225e4e693b&v=4' id='pfp'>
+  <img src='https://avatars.githubusercontent.com/u/74697095?s=400&u=fff308c2a910b6cb0fb1300e937f24225e4e693b&v=4' id='pfp'>
   <div id='nav'>
     <div id='headers'>
       <h1>Jordan De Visser</h1>
@@ -16,24 +16,83 @@
     <div id='student-info'>
       <p>Student #: s3895111</p>
       <p>s3895111@student.rmit.edu.au</p>
-      <p>Site: ! github.com</p>
-      <p>Repo: ! github.com</p>
+      <a href='https://github.com/decadentpig/intro-it-ass1'>GitHub Repo</a> /
+      <a href=''>GitHub Pages</a>
     </div>
   </div>
+  <img src='https://static.neris-assets.com/images/personality-types/scenes/diplomats_Mediator_INFP_introduction.svg' id='mediator-image'>
   <div id='main-content-container'>
-    <a href onclick='toggleSection(para-info); return false;'><h2>Personal Info</h2></a>
-      <p id='para-info'>TEST PARAGRAPH</p>
-    <a href='' onclick='toggleSection(para-interest)'><h2>Interest in IT</h2></a>
-      <p id='para-interest'></p>
-    <a href='' onclick='toggleSection(para-job)'><h2>Ideal Job</h2></a>
-      <p id='para-job'></p>
-    <a href='' onclick='toggleSection(para-profiles)'><h2>Personality Profiles</h2></a>
-      <p id='para-profiles'></p>
-    <a href='' onclick='toggleSection(para-project)'><h2>Project Idea</h2></a>
-      <p id='para-project'></p>
-  </div>
-  <div id='image-container'>
-    <img src='https://static.neris-assets.com/images/personality-types/scenes/diplomats_Mediator_INFP_introduction.svg' id='mediator-image'>
+    <a href onclick='toggleSection("para-info"); return false;'><h2>Personal Info</h2></a>
+      <div id='para-info' class='body-content'><p>My name is Jordan De Visser, I’m a student and public servant living in Brisbane. I am Australian with Swedish heritage, and I speak English (plus a vanishing amount of Hindi). In my spare time I write short fiction. Recently, I finished editing the first issue of a Brisbane-based literary magazine called Urinal Mag, which is available in print soon. It collects short stories and poetry from around my city.</p></div>
+    <a href='' onclick='toggleSection("para-interest"); return false;'><h2>Interest in IT</h2></a>
+      <div id='para-interest' class='body-content'><p>I have been interested in technology my entire life. My first vivid memory of a computer involves playing Lemmings on a tobacco-beige Windows 95 machine. Since then I have always kept up to date with developments in hardware and software.<br><br>
+
+Most of my IT experience is informal. I work in administration, and so part of my job inevitably involves some technical support (for printers, fax machines, enterprise software etc.). This support work is usually improvised and definitely additional to my job description. During COVID I began learning HTML, CSS and JavaScript, and find the web development space vibrant and interesting.<br><br>
+
+I chose RMIT for a variety of reasons. I have known people who have been RMIT students in the past, and I’ve also been impressed by RMIT's rankings in the country and worldwide. During my studies I expect to gain both a macro and a micro view of computers and the tech industry. I expect to learn a lot about the variety of specialisations within the industry, and to gain specific knowledge and skills for getting involved.</></div>
+    <a href='' onclick='toggleSection("para-job"); return false;'><h2>Ideal Job</h2></a>
+        <div id='para-job' class='body-content'><h3>Junior Software Engineer, Octopus Deploy</h3>
+          <p id='job-links'><a href='https://stackoverflow.com/jobs/512404/junior-software-engineer-australia-remote-octopus-deploy'>(Job Listing)</a>
+          <a>(Snapshot)</a></p>
+          <h4>Description:</h4>
+          <p>The job advertisement I’ve chosen is for a junior engineer at a company called Octopus Deploy. The company is involved in making software deployment automation tools. The ad appealed to me because it is targeted at junior developers with a passion for learning, and the job description suggests that the role is perfect for someone looking for strong mentorship and an opportunity to be hands-on.</p>
+          <h4>Skills I have:</h4>
+          <p>At the moment, I am able to demonstrate myself as a self-starter, with a few simple web projects under my belt and a 300-hour JavaScript Algorithms & Data Structures certificate from an online bootcamp. Crucially, I’m working towards a Bachelor in Information Technology, which will equip me with a variety of relevant skills. At the moment I am also learning Java, a statically-typed language, which I hope will help me to step across into learning TypeScript.</p>
+          <h4>Skills needed:</h4>
+          <p>A year or more of on-the-job development experience, as well as some familiarity with TypeScript, React and C#. Experience with building, testing and deploying a product will be important, especially when the company’s own product concerns automating some of these processes.</p>
+          <h4>Plan:</h4>
+          <p>My plan is to finish a Bachelor in Information Technology, while also continuing my self-directed web-development learning. In particular, I’d like to learn and become comfortable with the React library, which is currently popular and relevant not only to this job but to many others. Over the course of this learning I’d like to build, test and deploy some hobby projects of my own that are interesting to me and that might attract users, so that I can gain real working experience of making software products.</p></div>
+    <a href='' onclick='toggleSection("para-profiles"); return false;'><h2>Personality Profiles</h2></a>
+        <div id='para-profiles' class='body-content'>
+          <h3>Myers-Briggs Test: INFP-T (Mediator)</h3>
+          <h4>Strengths:</h4>
+          <ul>
+            <li>Thoughtful</li>
+            <li>Generous</li>
+            <li>Open-minded</li>
+            <li>Creative</li>
+            <li>Passionate</li>
+            <li>Diplomatic</li>
+          </ul>
+          <h4>Weaknesses:</h4>
+          <ul>
+            <li>Overly idealistic</li>
+            <li>Self-critical</li>
+            <li>Impractical</li>
+            <li>Reserved</li>
+            <li>Conflict-averse</li>
+          </ul>
+          <br><h3>VARK Questionnaire: Multimodal (VK) Visual / Kinesthetic</h3>
+          <h4>Visual: 7, Aural: 2, Read/Write: 0, Kinesthetic: 7</h4>
+          <h4>Learning Preferences:</h4>
+          <ul>
+            <li>Graphs</li>
+            <li>Diagrams</li>
+            <li>Maps</li>
+            <li>Interesting layouts</li>
+            <li>Space</li>
+            <li>Practical exercises</li>
+            <li>Experiences</li>
+            <li>Examples</li>
+          </ul>
+          <br><h3>Big Five Personality Test</h3>
+          <h4>Openness 100%, Conscientiousness 69%, Extraversion 44%, Agreeableness 52%, Neuoticism 60%</h4>
+          <h4>Strengths:</h4>
+          <ul>
+            <li>Creative</li>
+            <li>Intellectual</li>
+            <li>Organised</li>
+          </ul>
+          <h4>Weaknesses:</h4>
+          <ul>
+            <li>Anxious</li>
+            <li>Stressed</li>
+          </ul>
+          <br><h3>Analysis</h3>
+          <p>I believe these test results reveal me to be someone who is passionate, obsessive and driven, creative and conflict-averse. In a team setting, my strengths lie in my identity as a mediator and as a quiet creative workhorse. I’m always interested in healing disputes between others and maintaining smooth sailing. A firm big picture perspective on a project is important for me, as I find it hard to work within vague bounds or without a clear roadmap. This is a trait that may not gel well in teams with a laissez-faire attitude or improvised working style.</p>
+        </div>
+    <a href='' onclick='toggleSection("para-project"); return false;'><h2>Project Idea</h2></a>
+        <div id='para-project' class='body-content'><p>TEST PARAGRAPH</p></div>
   </div>
   <script src="script.js"></script>
 </body>  
