@@ -1,15 +1,15 @@
-function toggleSection(section){
+function toggleSection(section) {
   let para = document.getElementById(section);
   let sectionsArray = [
     'para-info',
     'para-interest',
     'para-job',
-    'para-profiles', 
+    'para-profiles',
     'para-project'
   ];
   let newArray = [];
 
-  switch (para.style.display){
+  switch (para.style.display) {
     case 'grid':
       para.style.display = 'none';
       break;
